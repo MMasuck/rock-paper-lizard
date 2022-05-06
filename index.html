@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Rock Paper Scissors Lizard Spock</title>
-    
+
 </head>
 
 <body>
@@ -16,7 +18,9 @@
         </div>
     </header>
 
-<p>This is an extension of the classic game Rock Paper Scissors, seen in The Bing Bang Theory TV show.</p>
+    <div class="container">
+        <h2>This is an extension of the classic game Rock Paper Scissors, seen in The Bing Bang Theory TV show.</h2>
+    </div>
 
     <div class="container">
         <div class="score-board">
@@ -52,19 +56,29 @@
         </div>
     </div>
 
+    <div class="container-fluid" id="media">
+        <div class="row align-self-center">
+            <div class="card col-sm-6">
+                <h3 class="card-title">Listen to some music while you play</h3>
+                <br>
+                    <br>
+                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3d9DChrdc6BOeFsbrZ3Is0?utm_source=generator&theme=0" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+            </div>
+            <div class="col-sm-6">
+                <h3>In case you were wondering how this works, here you have the rules</h3>
+                <img class="img-fluid img-thumbnail" src="img/rules.jpg" alt="Rules">
+            </div>
 
-
-    <div class="container">
-        <p>Listen to some music while you play!</p>
-        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3d9DChrdc6BOeFsbrZ3Is0?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+        </div>
     </div>
 
-    <div class="container">
-        <p>In case you were wondering how this works, here you have the rules:</p>
-    </div>
+    <footer>
+        <h4>This game was coded by Mariel Masuck. I hope you enjoyed it! <br> You can find me in <a href="https://www.linkedin.com/in/mariel-masuck/" target="_blank"><img src="img/linkedin.png" class="logo">Linkedin</a>
+        and <a href="https://github.com/MMasuck" target="_blank"><img src="img/github.png" class="logo">Github</a>.</h4>
+    </footer>
 
-    <p>This game was coded by Mariel Masuck. I hope you enjoyed it! You can contact me at</p>
     <script src="js/script.js" type="text/javascript"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
