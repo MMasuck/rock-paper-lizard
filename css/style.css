@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700");
+
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+/* que carajo hace esto?? */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #222230;
+	color: #fff;
+    font-family: "Roboto" sans-serif;
+	
+}
+
+header {
+	background: #EDEDFD;
+	padding: 20px;
+}
+
+header h1 {
+	color: #444;
+	text-align: center;
+	font-weight: 100;
+}
+
+.score-board {
+	border: 3px solid #fff;
+	width: 300px;
+	margin: 40px auto;
+	font-size: 40px;
+	border-radius: 4px;
+	text-align: center;
+	padding: 15px 20px;
+	position: relative;
+}
+
+.badge {
+	background: #8CAAF8;
+	text-transform: uppercase;
+	font-size: 14px;
+	padding: 10px 6px;
+}
+
+#user-label {
+	position: absolute;
+	top: 50%;
+	left: -5%;
+	transform: translate(-10%, -50%);
+}
+
+#computer-label {
+	position: absolute;
+	top: 50%;
+	right: -5%;
+	transform: translate(10%, -50%);
+}
+
+.result {
+	font-weight: 300;
+	text-align: center;
+	font-size: 32px;
+	line-height: 40px;
+}
+
+.result {
+	line-height: 50px;
+}
+
+.choices {
+	margin: 0 auto;
+	text-align: center;
+	padding: 40px 0;
+}
+
+.choice {
+	display: inline-block;
+	border: 3px solid #fff;
+	border-radius: 50%;
+	padding: 10px;
+	margin: auto 10px;
+	transition: all 0.3s ease;
+}
+
+.choice:hover{
+    background-color: #191924;
+    cursor: pointer;
+}
+
+
+#action-message {
+	text-align: center;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin: 40px 0;
+}
+
+.winningStyles {
+	border: 3px solid #CAF6CD;
+	background-color: #157A1B;
+	box-shadow: 0 0 20px #157A1B;
+}
+
+.losingStyles {
+	border: 3px solid #F58566;
+	background-color: #601A06;
+	box-shadow: 0 0 20px #601A06;
+}
+
+.drawStyles {
+	border: 3px solid #44455F;
+	background-color: #333448;
+	box-shadow: 0 0 20px #333448;
+}
+
+sup {
+	margin: 0;
+	padding: 0;
+}
